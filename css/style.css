@@ -1,3 +1,8 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
 .wrapper {
   display: grid;
   grid-template-rows: 100vh 85vh 15vh;
@@ -7,6 +12,21 @@
 header {
   grid-row: 1;
   grid-column: 1/4;
+  background: linear-gradient(120deg, #c2e59c, #64b3f4, #00c9ff, #92fe9d);
+  background-size: 400% 400%;
+  animation: achtergrond 15s ease infinite;
+}
+
+@keyframes achtergrond {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 50% 100%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
 
 main {
