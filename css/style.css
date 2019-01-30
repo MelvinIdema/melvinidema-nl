@@ -1,3 +1,9 @@
+/*
+* Copyright: MelvinIdema.nl
+* Author: Melvin Idema
+* Version: 0.2.1
+*/
+
 html, body {
   margin: 0;
   padding: 0;
@@ -20,4 +26,20 @@ html, body {
   font-size: 2rem;
   line-height: 1.25em;
   margin-top: 20px;
+}
+
+@media only screen and (max-width: 880px) {
+  .intro h1 {
+    font-size: 2.5rem;
+  }
+
+  .intro p {
+    font-size: 1.5rem;
+  }
+}
+
+@media only screen and (max-width: 755px) {
+  .intro {
+    width: 80%;
+  }
 }
