@@ -1,31 +1,75 @@
 /*
 * Copyright: MelvinIdema.nl
 * Author: Melvin Idema
-* Version: 0.2.1
+* Version: 0.4
 */
 
 html, body {
   margin: 0;
   padding: 0;
   font-family: 'Exo', sans-serif;
+  height: 100%;
+}
+
+p {
+  margin: 0;
+}
+
+a {
+  color: white;
+}
+
+.devalert {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: #E84940;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  z-index: 999;
+}
+
+.hero {
+  background-image: url('../images/hero1.jpg');
+  background-repeat: no-no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
 }
 
 .intro {
-  margin-left: 10%;
-  margin-top: 10%;
+  font-weight: 400;
   width: 50em;
+  color: white;
+  z-index: 999;
 }
 
 .intro h1 {
-  font-size: 3rem;
+  font-size: 3.5rem;
   letter-spacing: -1.5px;
   margin: 0;
 }
 
 .intro p {
-  font-size: 2rem;
+  font-size: 1.75rem;
   line-height: 1.25em;
-  margin-top: 20px;
+  margin-top: 10px;
+}
+
+.hero-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: -moz-radial-gradient(center, ellipse cover, rgba(68,109,234,0.85) 0%, rgba(54,87,187,0.85) 100%);
+  background: -webkit-radial-gradient(center, ellipse cover, rgba(68,109,234,0.85) 0%,rgba(54,87,187,0.85) 100%);
+  background: radial-gradient(ellipse at center, rgba(68,109,234,0.85) 0%,rgba(54,87,187,0.85) 100%);
+  padding-left: 10%;
+  padding-top: 10%;
 }
 
 @media only screen and (max-width: 880px) {
