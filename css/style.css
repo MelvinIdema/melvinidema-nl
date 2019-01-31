@@ -1,7 +1,7 @@
 /*
 * Copyright: MelvinIdema.nl
 * Author: Melvin Idema
-* Version: 0.2.1
+* Version: 0.4
 */
 
 html, body {
@@ -72,6 +72,21 @@ a {
   padding-top: 10%;
 }
 
+.portfolio-sc {
+  position: absolute;
+  transform: translateX(-50%);
+  left: 45%;
+  bottom: 20%;
+  text-align: center;
+  color: white;
+  width: 15em;
+}
+
+.portfolio-sc i {
+  font-size: 2em;
+  line-height: 0.5;
+}
+
 @media only screen and (max-width: 880px) {
   .intro h1 {
     font-size: 2.5rem;
@@ -79,6 +94,10 @@ a {
 
   .intro p {
     font-size: 1.5rem;
+  }
+
+  .portfolio-sc {
+    bottom: 10%;
   }
 }
 
