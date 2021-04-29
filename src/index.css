@@ -1,6 +1,8 @@
+@import url(https://use.typekit.net/gfj2irk.css);
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  font-family: "Supria Sans", -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -10,4 +12,44 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+h1 {
+  font-size: 72px;
+  color: #4C38FE;
+  font-weight: 400;
+  max-width: 16em;
+}
+
+p {
+  font-weight: 400;
+  font-size: 21px;
+  color: #8A8A8A;
+  max-width: 34em;
+  line-height: 36px;
+}
+
+p a {
+  color: #9085F6;
+  font-weight: 300;
+  text-decoration-thickness: 1px;
+  transition: all 300ms ease-in-out;
+}
+
+p a:hover {
+  color: #4C38FE;
+}
+
+span.highlighted {
+  text-decoration: underline;
+  text-decoration-thickness: 3px;
+}
+
+.wrapper {
+  max-width: 1366px;
+  margin: 0 auto;
+}
+
+header p {
+  margin-bottom: 64px;
 }
